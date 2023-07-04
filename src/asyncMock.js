@@ -4,7 +4,7 @@ const products = [
         name: 'iPhone 12',
         price: 1000,
         category: 'celular',
-        img: 'https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone12-pro-blue_10132020_big.jpg.large.jpg',
+        img: '',
         stock: 25,
         description: 'Descripción del producto'
     },
@@ -13,7 +13,7 @@ const products = [
         name: 'iPhone 11', 
         price: 800, 
         category: 'celular', 
-        img: 'https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone12-pro-blue_10132020_big.jpg.large.jpg', 
+        img: '', 
         stock: 25, 
         description: 'Descripción del producto' },
     {   
@@ -21,7 +21,7 @@ const products = [
         name: 'iPhone 10', 
         price: 700, 
         category: 'celular', 
-        img: 'https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone12-pro-blue_10132020_big.jpg.large.jpg', 
+        img: '', 
         stock: 25, 
         description: 'Descripción del producto' },
 ]
