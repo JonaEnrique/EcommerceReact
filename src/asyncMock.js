@@ -1,26 +1,26 @@
 const products = [
     {
-        id: 1,
-        name: 'iPhone 12',
+        id: '1',
+        name: 'Pantalon 1',
         price: 1000,
-        category: 'celular',
+        category: 'pantalones',
         img: '',
         stock: 25,
         description: 'Descripción del producto'
     },
     {   
         id: '2', 
-        name: 'iPhone 11', 
+        name: 'Pantalon 2', 
         price: 800, 
-        category: 'celular', 
+        category: 'pantalones', 
         img: '', 
         stock: 25, 
         description: 'Descripción del producto' },
     {   
         id: '3', 
-        name: 'iPhone 10', 
+        name: 'Remera 1', 
         price: 700, 
-        category: 'celular', 
+        category: 'remeras', 
         img: '', 
         stock: 25, 
         description: 'Descripción del producto' },
@@ -42,10 +42,10 @@ export const getProductById = (productId) => {
     })
 }
 
-export const getProductsByCategory = (categoryId) => {
+export const getProductsByCategory = (category) => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(products.filter(prod => prod.category === categoryId))
+            resolve(products.filter(prod => prod.category === category))
         }, 500)
     })
 }
