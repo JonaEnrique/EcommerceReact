@@ -1,5 +1,5 @@
 .NavBar {
-    background-color: #f98181;
+    background-color: #ff5f8f;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -34,7 +34,7 @@
 }
 
 .CustomNavLinkActive {
-    background-color: #ff5f8f;
+    background-color: #f98181;
     /* Green */
     color: #ffffff;
     border: 2px solid #000000;

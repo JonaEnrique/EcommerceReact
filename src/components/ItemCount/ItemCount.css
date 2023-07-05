@@ -1,0 +1,17 @@
+.Counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px 0px;
+}
+.BotonesAgregar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.b {
+    margin: 5px;
+}
