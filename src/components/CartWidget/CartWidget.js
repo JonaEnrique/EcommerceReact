@@ -8,8 +8,6 @@ import './CartWidget.css';
 const CartWidget = () => {
     const { totalQuantity } = useContext(CartContext);
 
-    console.log(totalQuantity);
-
     return (
         <Link to="/cart" className="CartWidget" style={{ display: totalQuantity > 0 ? "block" : "none"}}>
             <img className="CartImg" src={cart} alt="Carrito de compras" />
