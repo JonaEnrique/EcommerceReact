@@ -1,11 +1,13 @@
-import { useContext } from "react"
+import { useContext } from "react";
 import { CartContext } from "../../context/CartContext"
 
+import "./CartItem.css";
+
 const CartItem = ({ id, name, price, quantity }) => {
-    const { removeItem } = useContext(CartContext)
+    const { removeItem } = useContext(CartContext);
 
     return (
-        <div>
+        <div className="CartItem">
             <h3>{name}</h3>
             <p>Cantidad: {quantity}</p>
             <p>Precio por unidad: ${price}</p>
@@ -14,4 +16,4 @@ const CartItem = ({ id, name, price, quantity }) => {
     )
 }
 
-export default CartItem
+export default CartItem;

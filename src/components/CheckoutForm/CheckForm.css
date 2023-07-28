@@ -1,0 +1,43 @@
+
+.Checkout div {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.Checkout form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ddd;
+}
+
+.Checkout label {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.Checkout input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.Checkout button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5f8f;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.Checkout button:hover {
+    background-color: #ff61c3;
+}

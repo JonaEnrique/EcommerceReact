@@ -1,0 +1,30 @@
+.Cart {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.Cart h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Cart .Button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #ff5f8f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Cart .Option {
+    text-decoration: none;
+    color: #ff5f8f;
+}

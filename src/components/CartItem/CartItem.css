@@ -1,0 +1,29 @@
+.CartItem {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.CartItem h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.CartItem p {
+    color: #666;
+    font-size: 16px;
+}
+
+.CartItem button {
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

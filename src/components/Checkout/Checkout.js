@@ -5,10 +5,10 @@ import { Timestamp, addDoc, collection, getDocs, query, where, writeBatch, docum
 import CheckoutForm from "../CheckoutForm/CheckoutForm";
 
 const Checkout = () => {
-    const [loading, setLoading] = useState(false)
-    const [orderId, setOrderId] = useState('')
+    const [loading, setLoading] = useState(false);
+    const [orderId, setOrderId] = useState('');
 
-    const { cart, total, clearCart } = useContext(CartContext)
+    const { cart, total, clearCart } = useContext(CartContext);
 
     const createOrder = async ({ name, phone, email }) => {
         setLoading(true)
@@ -58,10 +58,10 @@ const Checkout = () => {
         } finally {
             setLoading(false)
         }
-    }
+    };
 
     if (loading) {
-        return <h1>Se esta generando su orden...</h1>
+        return <h1>Se está generando su orden...</h1>
     }
 
     if (orderId) {
